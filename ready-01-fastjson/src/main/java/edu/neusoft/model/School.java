@@ -1,2 +1,10 @@
-package edu.neusoft.model;public class School {
+package edu.neusoft.model;
+
+import lombok.Data;
+
+@Data
+public class School {
+    private String name;
+    private String address;
+
 }
